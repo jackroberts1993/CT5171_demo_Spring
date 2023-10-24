@@ -39,7 +39,7 @@ pipeline{
     post{
         success{
             archiveArtifacts allowEmptyArchive: true,
-                artifacts: '**/demo.jar'
+                artifacts: '**/demo.war'
             }
         }
 }
